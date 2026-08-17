@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata: Metadata = { title:{default:'Digital Marketing Help for Small Businesses',template:'%s | Small Business Digital Consulting'}, description:'Practical Google Ads, SEO, website and analytics consulting for small businesses. Get experienced digital marketing help without a large agency retainer.', keywords:['small business digital marketing','affordable digital marketing','Google Ads consultant','SEO consultant','digital marketing audit','website audit','Canada'], robots:{index:true,follow:true}, openGraph:{title:'Digital Marketing Help for Small Businesses',description:'Practical Google Ads, SEO, website and analytics support without the agency-sized commitment.',type:'website'} };
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
